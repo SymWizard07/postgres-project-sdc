@@ -8,7 +8,8 @@ Ensure that the Docker Engine is running. You can confirm this by opening a term
 ## 2. Start the PostgreSQL Docker container
 Navigate to the project directory containing the docker-compose.yml file, and run  
 `docker-compose up -d`  
-This will start the containerized PostgreSQL server. No database setup required!
+This will start the containerized PostgreSQL server. No database setup required!  
+NOTE: Stop your own Postgres Server before running the docker one or you may have issues with port conflicts!
 
 ## 3. Install Python dependencies (Optional)
 The python requirements are already present in this project, but if it does not work for you, try running this command to install requirements.  
